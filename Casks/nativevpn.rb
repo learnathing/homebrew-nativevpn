@@ -10,7 +10,7 @@ cask "nativevpn" do
   homepage "https://github.com/learnathing/nativevpn"
 
   livecheck do
-    skip "Experimental releases are updated explicitly in this tap"
+    skip "Releases are updated explicitly in this tap"
   end
 
   depends_on arch: :arm64
@@ -50,7 +50,7 @@ cask "nativevpn" do
             pkgutil:   "^dev\\.lain\\.NativeVPN$"
 
   caveats <<~EOS
-    Experimental, ad-hoc signed build; not notarized by Apple.
+    Ad-hoc signed build; not notarized by Apple.
     Installation requires administrator approval and may be blocked by Gatekeeper.
     Disconnect and quit NativeVPN and vpnctl before upgrading or uninstalling.
     Saved scenes, Keychain passwords and gateway trust are preserved on uninstall.

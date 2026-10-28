@@ -1,6 +1,6 @@
 # NativeVPN Homebrew tap
 
-Experimental binary distribution.
+UniVPN／SecoClient 相容的 legacy SSL VPN 客戶端。正式版與支援範圍見[使用說明](https://github.com/learnathing/nativevpn#readme)。
 
 ```sh
 brew tap learnathing/nativevpn
