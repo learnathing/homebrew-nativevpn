@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "nativevpn" do
-  version "0.3.4"
-  sha256 "4a5d5840e6f41de25e84848175374ef009907fd1fcd0b6674b558b51a730d666"
+  version "0.3.5"
+  sha256 "b8bed78faf84e8c726a1408ee0992fa7fdfb29183a2fb8880aca8b836cedf668"
 
   url "https://github.com/learnathing/nativevpn/releases/download/v#{version}/NativeVPN-#{version}-arm64.pkg"
   name "NativeVPN"
